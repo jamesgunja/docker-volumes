@@ -1,3 +1,3 @@
-FROM otechlabs/busybox:latest
+FROM alpine:3.2
 
-RUN opkg-install bash
+MAINTAINER Dawid Malinowski <d.malinowski@oberthur.com>
